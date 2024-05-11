@@ -21,11 +21,11 @@ class BTNode<E> { //Definisi kelas dan generic type E
         left = n;
     }
 
-    //Getter untuk atribut left dan right
     public void setRight(BTNode n) {
         right = n;
     }
 
+    //Getter untuk atribut left dan right
     public BTNode getLeft() {
         return left;
     }
